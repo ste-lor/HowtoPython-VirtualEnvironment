@@ -3,8 +3,10 @@ Some open source programs are not always immediately compatible with the latest 
 
 
 **For Linux**
-  pip install virtualenv
-  
-  
-copyCodeBlock('<div>Thundercats</div>')
+
+
+
+
+**For Windows**
+
   
