@@ -8,5 +8,8 @@ Some open source programs are not always immediately compatible with the latest 
 
 
 **For Windows**
+```
+virtualenv env
 
+````
   
