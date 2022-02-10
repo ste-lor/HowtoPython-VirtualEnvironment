@@ -31,7 +31,7 @@ virtualenv my_venv --python=python3.8.8
 ````
 Activate the new environment,
 ````
-cd my_venv\Scripts\activate.bat
+cd C:\Users\my_project\my_venv\Scripts\activate.bat
 ````
 Check the installed version,
 ````
