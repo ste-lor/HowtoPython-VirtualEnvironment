@@ -7,9 +7,32 @@ Some open source programs are not always immediately compatible with the latest 
 
 
 
-**For Windows**
-```
-virtualenv env
+**For Windows:**
+
+First install via pip,
+````
+pip install virtualenv
 
 ````
-  
+Navigate to the desired folder where the virtual environment should be installed,
+````
+cd C:\Users\my_project
+
+````
+Within the desired folder install your new environment with a specific Python version of your choice,
+````
+virtualenv my_venv --python=python3.8.8 
+
+````
+Activate the new environment,
+````
+cd my_venv\Scripts\activate.bat
+````
+Check the installed version,
+````
+python --version
+````
+Deactivate the environment by typing, 
+````
+deactivate.bat
+````
