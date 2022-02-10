@@ -1,5 +1,5 @@
 # HowtoPython-VirtualEnvironment
-Some open source programs are not always immediately compatible with the latest Python version. Thus, it is suitable to create a virtual environment and decouple your main Python and work within the virtual env. This avoids that the different Python versions influence each other.
+Some open source programs are not always immediately compatible with the latest Python version. Thus, it is suitable to create virtual environments and decouple your main Python and work within the virtual env. This avoids that the different Python versions influence each other.
 
 <br />
 
