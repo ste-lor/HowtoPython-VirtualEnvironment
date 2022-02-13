@@ -12,33 +12,35 @@ comming soon
 <br />
 <br />
 
-**For Windows:**
-First, the desired python version has to be installed. To do that, go to [Traversy Media] https://www.python.org/downloads/windows/ and chose the version of your choice.
+**For Windows:**<br />
+First, the desired Python version has to be installed. To do that, go to [PythonVersionsWindows](https://www.python.org/downloads/windows/) and download the version of your choice.
+<br />
+<br />
+It is convenient to store all local versions in a single folder. One possibility is shown below. There are currently two different Python versions stored in the file "C:\Python".
+````
+C:\Python\Python3.8.8
+C:\Python\Python3.9.10
+````
+<br />
+<br />
+Once the desired Python version is installed, continue with the following steps.
+Install via pip,
 
-
-
-
-
-
-
-First install via pip,
 ````
 pip install virtualenv
-
 ````
-Navigate to the desired folder where the virtual environment should be installed,
+Next, navigate to the desired folder where the virtual environment should be installed,
 ````
 cd C:\Users\my_project
-
 ````
-Within the desired folder install your new environment with a specific Python version of your choice,
+Within the desired folder install your new environment for the specific Python version,
 ````
 virtualenv my_venv --python=python3.8.8 
 
 ````
 Activate the new environment,
 ````
-cd C:\Users\my_project\my_venv\Scripts\activate.bat
+cd C:\Users\my_project\my_venv\Scripts\activate
 ````
 Check the installed version,
 ````
@@ -46,5 +48,5 @@ python --version
 ````
 Deactivate the environment by typing, 
 ````
-deactivate.bat
+deactivate
 ````
