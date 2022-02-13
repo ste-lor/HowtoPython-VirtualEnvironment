@@ -13,6 +13,13 @@ comming soon
 <br />
 
 **For Windows:**
+First, the desired python version has to be installed. To do that, go to [Traversy Media] https://www.python.org/downloads/windows/ and chose the version of your choice.
+
+
+
+
+
+
 
 First install via pip,
 ````
