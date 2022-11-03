@@ -43,8 +43,9 @@ pyenv
 pyenv install -l
 ````
 
-2.2) Install a desired Python version (installed in `home/user/.pyenv` => is installed locally, exactly what is wanted). For instance,
+2.2) Install a desired Python version (installed in `home/user/.pyenv` => is installed locally, exactly what is wanted). For instance, here we will install two Python versions,
 ````
+pyenv install 3.8.8
 pyenv install 3.9.10
 ````
 
@@ -63,23 +64,42 @@ pyenv version
 mkdir venvs
 ````
 
-2.6) Set in this folder a local Python version (which should be active also in the virtual env): pyenv local 3.8.8
-
+2.6) Set in this folder (in our case `home/user/venv/`) a local Python version (the one which you want to use for your virtual env),
 ````
-pyenv install 3.9.10
-````
-12) Create virtual environment: python -m venv venv388
-
-````
-pyenv install 3.9.10
+pyenv local 3.8.8
 ````
 
-14) Activate virtual env: source venv388/bin/activate
-15) Deactivate env: deactivate
-16) Create a second virtual env, fist change the local Python version to the desired one: pyenv local 3.9.10
-17) python -m venv venv3910
-18) Activate the env: source venv3910/bin/activate
-19) deactivate2.1)
+2.7) Create then your virtual environment inside the folder `home/user/venv/`,
+````
+python -m venv venv388
+````
+
+2.8) Activate your virtual env by typing,
+````
+source venv388/bin/activate
+````
+
+2.9) Deactivate your virtual env,
+````
+deactivate
+````
+
+2.10) If you want to create a second virtual env with a different Python version: Change first the local Python version inside the desired folder
+````
+pyenv local 3.9.10
+````
+and created then the virtual environment,
+````
+python -m venv venv3910
+````
+activate the virtual environment with,
+````
+source venv3910/bin/activate
+````
+and deactivate it by typing, 
+````
+deactivate
+````
 
 
 
