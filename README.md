@@ -6,11 +6,35 @@ The following description is a brief summary of [How to Install Multiple Python 
 <br />
 
 **For Linux:**<br />
-For linux we will use the tool `pyenv` 
+For linux we will use the tool `pyenv`, which allows to create virtual environments very easily. However, for the installation of `pyenv` some actions must be considered first. `pyenv` is stored under `/home/user/.pyenv`.<br /> <br />
 
+**1. Installation of `pyenv` - has only to be done once** <br />
+
+1.1) Type into your terminal,
 ````
-comming soon
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl \
+git
 ````
+
+1.2) Under `/home/user/` clone the following repository from GitHub:
+````
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+````
+  
+1.3) Add `.pyenv` to `$Path`, 
+````
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
+````
+  
+1.4) Close your current terminal and open a new one, type `pyenv` and check if it works, 
+````
+pyenv
+````
+
 
 
 
