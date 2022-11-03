@@ -1,9 +1,13 @@
 # HowtoPython-VirtualEnvironment
-Some open source programs are not always immediately compatible with the latest Python version. Thus, it is suitable to create virtual environments and decouple your main Python and work within the virtual env. This avoids that the different Python versions influence each other.
+Some open source programs are not always immediately compatible with the latest Python version. Thus, it is suitable to create virtual environments and decouple your main Python and work within the virtual environment. This avoids that the different Python versions influence each other.<br />
+
+The following description is a brief summary of [How to Install Multiple Python Versions]( https://k0nze.dev/posts/install-pyenv-venv-vscode/) from [k0nze](https://k0nze.dev/).
 
 <br />
 
-**For Linux:**
+**For Linux:**<br />
+First, 
+
 ````
 comming soon
 ````
@@ -24,7 +28,7 @@ C:\Python\Python3.9.10
 <br />
 <br />
 Once the desired Python version is installed, continue with the following steps.
-Install via pip,
+Install via `pip` ,
 
 ````
 pip install virtualenv
