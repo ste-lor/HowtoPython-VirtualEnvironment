@@ -34,7 +34,52 @@ echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
 ````
 pyenv
 ````
+<br />
 
+**2. Using `pyenv` and setting up virtual environments** <br />
+
+2.1) Check possible Python versions which can be installed,
+````
+pyenv install -l
+````
+
+2.2) Install a desired Python version (installed in `home/user/.pyenv` => is installed locally, exactly what is wanted). For instance,
+````
+pyenv install 3.9.10
+````
+
+2.3) Check if installation worked,
+````
+pyenv versions
+````
+
+2.4) Check currently active version (should be the one of your `*system`), 
+````
+pyenv version
+````
+
+2.5) Create a new folder in `/home/user/`, in which all the future virtual environments will be saved,
+````
+mkdir venvs
+````
+
+2.6) Set in this folder a local Python version (which should be active also in the virtual env): pyenv local 3.8.8
+
+````
+pyenv install 3.9.10
+````
+12) Create virtual environment: python -m venv venv388
+
+````
+pyenv install 3.9.10
+````
+
+14) Activate virtual env: source venv388/bin/activate
+15) Deactivate env: deactivate
+16) Create a second virtual env, fist change the local Python version to the desired one: pyenv local 3.9.10
+17) python -m venv venv3910
+18) Activate the env: source venv3910/bin/activate
+19) deactivate2.1)
 
 
 
