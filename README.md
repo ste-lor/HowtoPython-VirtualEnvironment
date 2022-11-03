@@ -6,7 +6,7 @@ The following description is a brief summary of [How to Install Multiple Python 
 <br />
 
 **For Linux:**<br />
-First, 
+For linux we will use the tool `pyenv` 
 
 ````
 comming soon
@@ -21,6 +21,8 @@ comming soon
 
 
 **For Windows:**<br />
+*Note:* There is the possibility of using `pyenv` for Windows. The installation procedure can be found here [How to Install Multiple Python Versions](https://k0nze.dev/posts/install-pyenv-venv-vscode/). However, in the following description `virtualenv` is used. <br />
+
 First, the desired Python version has to be installed. To do that, go to [PythonVersionsWindows](https://www.python.org/downloads/windows/) and download the version of your choice. <br />
 It is convenient to store all local versions in a single folder. One possibility is shown below. There are currently two different Python versions stored in the file `C:\Python\`:
 ````
