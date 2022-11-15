@@ -101,6 +101,13 @@ and deactivate it by typing,
 deactivate
 ````
 
+<br />
+
+**3. Update ``pyenv`` :**
+````
+cd ~/.pyenv
+git pull
+````
 
 
 <br />
